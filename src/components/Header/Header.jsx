@@ -14,7 +14,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex justify-center items-center gap-8">
-          {["HOME", "ABOUT", "SERVICES", "PRICING", "CONTACT US"].map(
+          {["HOME", "ABOUT", "SERVICES", "PRICING", "CONTACT "].map(
             (item, index) => (
               <a
                 key={index}
@@ -54,7 +54,7 @@ const Header = () => {
       {menuOpen && (
         <div className="md:hidden bg-[#020230] w-full absolute left-0 top-16 py-4 z-40">
           <nav className="flex flex-col items-center gap-4">
-            {["HOME", "ABOUT", "SERVICES", "PRICING", "CONTACT US"].map(
+            {["HOME", "ABOUT", "SERVICES", "PRICING", "CONTACT "].map(
               (item, index) => (
                 <a
                   key={index}
